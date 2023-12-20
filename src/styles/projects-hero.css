@@ -1,0 +1,71 @@
+.parent-magestic-carousel {
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url("../assets/society.png");
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    pointer-events: auto;
+    overflow: inherit;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 500 ease-in-out;
+
+}
+
+.cursor-following-div {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    z-index: 99999999;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.cursor-following-div>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cursor-following-div>div>h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.cursor-following-div>div>h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.project-header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.project-header-text>h3 {
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-header-text>h4 {
+    
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 5rem;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+}
